@@ -1,0 +1,60 @@
+{
+  "planets": [
+    {
+      "id": 1,
+      "name": "Mercury",
+      "god": "Mercury (Roman) - god of merchants, travelers, and messages",
+      "funFact": "Mercury has no moons and it's the smallest planet in the solar system",
+      "avgDistanceFromSun": "57.9 million km"
+    },
+    {
+      "id": 2,
+      "name": "Venus",
+      "god": "Venus (Roman) - goddess of love and beauty",
+      "funFact": "Venus rotates in the opposite direction to most planets, including Earth",
+      "avgDistanceFromSun": "108.2 million km"
+    },
+    {
+      "id": 3,
+      "name": "Earth",
+      "god": "Terra (Roman) - goddess of the earth",
+      "funFact": "Earth is the only planet not named after a god",
+      "avgDistanceFromSun": "149.6 million km"
+    },
+    {
+      "id": 4,
+      "name": "Mars",
+      "god": "Mars (Roman) - god of war",
+      "funFact": "Mars is home to the tallest mountain in the solar system, Olympus Mons",
+      "avgDistanceFromSun": "227.9 million km"
+    },
+    {
+      "id": 5,
+      "name": "Jupiter",
+      "god": "Jupiter (Roman) - king of the gods",
+      "funFact": "Jupiter has the most moons of any planet in the solar system",
+      "avgDistanceFromSun": "778.5 million km"
+    },
+    {
+      "id": 6,
+      "name": "Saturn",
+      "god": "Saturn (Roman) - god of wealth and agriculture",
+      "funFact": "Saturn has the most extensive rings of any planet in the solar system",
+      "avgDistanceFromSun": "1.4 billion km"
+    },
+    {
+      "id": 7,
+      "name": "Uranus",
+      "god": "Uranus (Greek) - god of the sky",
+      "funFact": "Uranus rotates on its side, making its seasons very extreme",
+      "avgDistanceFromSun": "2.9 billion km"
+    },
+    {
+      "id": 8,
+      "name": "Neptune",
+      "god": "Neptune (Roman) - god of the sea",
+      "funFact": "Neptune has the strongest winds in the solar system",
+      "avgDistanceFromSun": "4.5 billion km"
+    }
+  ]
+}
