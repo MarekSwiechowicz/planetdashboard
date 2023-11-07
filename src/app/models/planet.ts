@@ -4,4 +4,5 @@ export interface Planet {
   god: string;
   funFact: string;
   avgDistanceFromSun: string;
+  isInnerPlanet: boolean;
 }

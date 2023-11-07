@@ -1,1 +1,20 @@
-<p>planetdashboard works!</p>
+<h1>Planet Dashboard</h1>
+
+<div class="planet-dashboard">
+  <div *ngFor="let planet of planets">
+    <h2>{{ planet.name }}</h2>
+    <p>{{ planet.god }}</p>
+    <p>{{ planet.funFact }}</p>
+    <p>{{ planet.avgDistanceFromSun }}</p>
+    <p *ngIf="planet.isInnerPlanet"><strong>Inner Planet</strong></p>
+    <ng-container
+      *ngIf="planet.isInnerPlanet; then innerTemplate; else outerTemplate"
+    ></ng-container>
+    <ng-template #innerTemplate
+      ><p><strong>Inner Planet</strong></p></ng-template
+    >
+    <ng-template #outerTemplate
+      ><p><strong>Outer Planet</strong></p></ng-template
+    >
+  </div>
+</div>
